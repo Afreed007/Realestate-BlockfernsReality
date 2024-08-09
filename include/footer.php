@@ -40,10 +40,10 @@
                                                 <h4 class="widget-title text-white double-down-line-left position-relative">Contact Us</h4>
                                                 <ul class="text-white">
                                                     <li class="hover-text-primary"><i class="fas fa-map-marker-alt text-white mr-2 font-13 mt-1"></i>27 Church street ,Bangalore</li>
-                                                    <li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i><a href="tel:+91 96006425616"><i class="text-white">+91 96006425616</i></a></li>
-													<li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i><a href="tel:+91 7026423228"><i class="text-white">+91 7026423228</i></a></li>
+                                                    <li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i><a href="tel:+91 6364606626"><i class="text-white hover-text-primary">+91 6364606626</i></a></li>
+													<li class="hover-text-primary"> <i class="fas fa-phone-alt text-white mr-2 font-13 mt-1"></i><a href="tel:+91 7026423228"><i class="text-white hover-text-primary">+91 7026423228</i></a></li>
                                                     <li class="hover-text-primary"><i class="fas fa-envelope text-white mr-2 font-13 mt-1"></i>BlockFernsReality@gmail.com</li>
-                                                    <li class="hover-text-primary"> <i class="fab fa-instagram text-white mr-2 font-13 mt-1"></i><a href="https://www.instagram.com/blockfernsreality?igsh=MTQya2J3eXYzY2NuMQ=="><i class="text-white">BlockFernsReality</i></a></li>
+                                                    <li class="hover-text-primary"> <i class="fab fa-instagram text-white mr-2 font-13 mt-1"></i><a href="https://www.instagram.com/blockfernsreality?igsh=MTQya2J3eXYzY2NuMQ=="><i class="text-white hover-text-primary">BlockFernsReality</i></a></li>
                                                 </ul>
                                             </div>
                                         </div>

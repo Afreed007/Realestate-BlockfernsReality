@@ -41,42 +41,14 @@ include("config.php");
 </head>
 <body>
 
-<!--	Page Loader -->
-<!-- <div class="page-loader position-fixed z-index-9999 w-100 bg-white vh-100">
-	<div class="d-flex justify-content-center y-middle position-relative">
-	  <div class="spinner-border" role="status">
-		<span class="sr-only">Loading...</span>
-	  </div>
-	</div>
-</div> -->
+
 
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
         <!--	Header end  -->
-        
-        <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>About US</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">About Us</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-         <!--	Banner   --->
-		 
-        <!--	About Our Company -->
+       
         <div class="full-row">
             <div class="container">
                 
@@ -95,11 +67,27 @@ include("config.php");
                 <div class="row about-company">
                     <div class="col-md-12 col-lg-7">
                         <div class="about-content">
-                            <?php echo $row['2'];?>
+                            <!-- <?php echo $row['2'];?> -->
+                            <p>
+                            <span class="font-weight-bold text-dark">Welcome to BlockFernsReality<br></span>
+                            At BlockFernsReality, we are dedicated to providing exceptional real estate services to our clients. Established in 2024, our company has built a reputation for excellence, integrity, and customer satisfaction.<br>
+
+                            <span class="font-weight-bold text-dark">Our Mission:</span><br>
+                            Our mission is to offer unparalleled real estate services, ensuring that our clients have a seamless and enjoyable experience. We strive to exceed expectations by delivering personalized service, expert advice, and innovative solutions.
+                            <br>
+                            <span class="font-weight-bold text-dark">Our Vision:</span><br>
+                            We aim to be the leading real estate agency, recognized for our commitment to excellence, market expertise, and customer-focused approach. Our vision is to set new standards in the real estate industry and to be the preferred choice for clients seeking reliable and efficient real estate solutions.
+                            <br>
+                            <span class="font-weight-bold text-dark">Our Services:</span><br>
+                            - Buying and Selling: We assist clients in buying and selling properties, offering expert guidance throughout the entire process.
+                            <br>- Rental Services: Our rental services connect property owners with reliable tenants and provide comprehensive management solutions.
+                            <br>- Investment Consulting: We offer strategic investment consulting services to help clients maximize returns while minimizing risks.
+                            </p>
+
                         </div>
                     </div>
                     <div class="col-md-12 col-lg-5 mt-5">
-                        <div class="about-img"> <img src="admin/upload/<?php echo $row['3'];?>" alt="about image"> </div>
+                        <div class="about-img"> <img src="images\main-bg.jpg" alt="about image"> </div>
                     </div>
                 </div>
 				
@@ -107,7 +95,7 @@ include("config.php");
 				
             </div>
         </div>
-        <!--	About Our Company -->        
+              
         
        <!--	Footer   start-->
 		<?php include("include/footer.php");?>

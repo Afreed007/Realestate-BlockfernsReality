@@ -76,29 +76,7 @@ if(isset($_POST['send']))
     <div class="row"> 
         <!--	Header start  -->
 		<?php include("include/header.php");?>
-        <!--	Header end  -->
         
-        <!--	Banner -->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Contact</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Contact</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-        <!--	Banner -->
-		<!-- -->
-        <!--	Contact Information -->
         <div class="full-row">
             <div class="container">
                 <div class="row">
@@ -149,10 +127,10 @@ if(isset($_POST['send']))
 												<input type="text"  name="name" class="form-control" placeholder="Your Name*">
 											</div>
 											<div class="form-group col-lg-6">
-												<input type="text"  name="email" class="form-control" placeholder="Email Address*">
+												<input type="email"  name="email" class="form-control" placeholder="Email Address*">
 											</div>
 											<div class="form-group col-lg-6">
-												<input type="text"  name="phone" class="form-control" placeholder="Phone" maxlength="10">
+												<input type="number"  name="phone" class="form-control" placeholder="Phone" maxlength="10" minlength="10">
 											</div>
 											<div class="form-group col-lg-6">
 												<input type="text" name="subject"  class="form-control" placeholder="Subject">
@@ -175,9 +153,7 @@ if(isset($_POST['send']))
         </div><!-- -->
         <!--	Contact Inforamtion -->
         
-        	<!-- Map -->
-		<!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5644.408542716626!2d-117.1523848363907!3d32.73426737275872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d95495497f80c9%3A0x5df0f4372635e247!2sSan%20Diego%20Zoo!5e0!3m2!1sen!2snp!4v1658568764228!5m2!1sen!2snp" width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-		<!--	Map -->
+
         
         <!--	Footer   start-->
 		<?php include("include/footer.php");?>
@@ -190,8 +166,7 @@ if(isset($_POST['send']))
 </div>
 <!-- Wrapper End --> 
 
-<!--	Js Link
-============================================================--> 
+
 <script src="js/jquery.min.js"></script> 
 <!--jQuery Layer Slider --> 
 <script src="js/greensock.js"></script> 

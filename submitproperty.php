@@ -7,15 +7,17 @@ if(!isset($_SESSION['uemail']))
 {
 	header("location:login.php");
 }
-
+$error="";
 if ($_SESSION['utype']!='agent' && $_SESSION['utype']!='builder') {
-    header("location:index.php"); // redirect to a restricted access page or homepage
-    exit;
+	$error= "<p class='alert alert-warning'> Error: Only agents and builders can add property.</p>";
+    header("location:index.php "); // redirect to a restricted access page or homepage
+	exit;
+	
 }
 
 //// code insert
 //// add code
-$error="";
+
 $msg="";
 if(isset($_POST['add']))
 {
@@ -144,27 +146,7 @@ if(isset($_POST['add']))
 		<?php include("include/header.php");?>
         <!--	Header end  -->
         
-        <!--	Banner   --->
-        <!-- <div class="banner-full-row page-banner" style="background-image:url('images/breadcromb.jpg');">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h2 class="page-name float-left text-white text-uppercase mt-1 mb-0"><b>Submit Property</b></h2>
-                    </div>
-                    <div class="col-md-6">
-                        <nav aria-label="breadcrumb" class="float-left float-md-right">
-                            <ol class="breadcrumb bg-transparent m-0 p-0">
-                                <li class="breadcrumb-item text-white"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item active">Submit Property</li>
-                            </ol>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-         <!--	Banner   --->
-		 
-		 
+      
 		<!--	Submit property   -->
         <div class="full-row">
             <div class="container">

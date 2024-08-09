@@ -88,19 +88,7 @@ include("config.php");
 
                             
                             
-                        <!--    <div class="col-md-12">
-                                <nav aria-label="Page navigation">
-                                    <ul class="pagination justify-content-center mt-4">
-                                        <li class="page-item disabled"> <span class="page-link">Previous</span> </li>
-                                        <li class="page-item active" aria-current="page"> <span class="page-link"> 1 <span class="sr-only">(current)</span> </span> </li>
-                                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                        <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                        <li class="page-item">...</li>
-                                        <li class="page-item"><a class="page-link" href="#">5</a></li>
-                                        <li class="page-item"> <a class="page-link" href="#">Next</a> </li>
-                                    </ul>
-                                </nav>
-                            </div>  -->
+                      
                         </div>
                     </div>
 					
@@ -133,7 +121,7 @@ include("config.php");
                         </form>
                         </div>
 
-                        <h4 class="double-down-line-left text-secondary position-relative pb-4 mb-4 mt-5">Featured Property</h4>
+                        <h4 id="featured-property" class="double-down-line-left text-secondary position-relative pb-4 mb-4 mt-5">Featured Property</h4>
                         <ul class="property_list_widget">
 							
                             <?php 

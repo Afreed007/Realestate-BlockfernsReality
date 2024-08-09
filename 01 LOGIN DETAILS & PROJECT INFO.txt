@@ -1,0 +1,17 @@
+**Log on to codeastro.com for more projects!***
+
+**Database Name: realestatephp**
+
+**Developed by SyedIbrahim & Afreed Pasha**
+
+**Recommended PHP Version 5.6, 7.4**
+
+
+**Admin Login Details**
+
+
+agent:trial.agent@gmail.com
+Password:syedibrahim123
+
+builder:trial.builder@gmail.com
+Password:sandesh123

@@ -19,13 +19,11 @@ include("config.php");
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <link rel="shortcut icon" href="images/favicon.ico">
 
-<!--	Fonts
-	========================================================-->
+<!--Fonts-->
 <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,500,600,700&amp;display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Comfortaa:400,700" rel="stylesheet">
 
-<!--	Css Link
-	========================================================-->
+<!--Css Link-->
 <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="css/bootstrap-slider.css">
 <link rel="stylesheet" type="text/css" href="css/jquery-ui.css">
@@ -36,14 +34,10 @@ include("config.php");
 <link rel="stylesheet" type="text/css" href="fonts/flaticon/flaticon.css">
 <link rel="stylesheet" type="text/css" href="css/style.css">
 
-<!--	Title
-	=========================================================-->
+<!--Title-->
 <title>Real Estate PHP</title>
 </head>
 <body>
-
-
-
 <div id="page-wrapper">
     <div class="row"> 
         <!--	Header start  -->
